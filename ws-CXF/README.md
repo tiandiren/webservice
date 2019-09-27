@@ -22,7 +22,16 @@
                <sig:name>?</sig:name>
                <sig:sex>?</sig:sex>
                <sig:addr>?</sig:addr>
-               <sig:age>1</sig:age>
+               <sig:age>?</sig:age>
+               <!--Zero or more repetitions:-->
+               <sig:inUser>
+                  <!--Optional:-->
+                  <sig:inName>?</sig:inName>
+               </sig:inUser>
+               <sig:inUser>
+                  <!--Optional:-->
+                  <sig:inName>?</sig:inName>
+               </sig:inUser>
             </sig:userReq>
             <sig:traceNo>?</sig:traceNo>
          </sig:getUserData>
